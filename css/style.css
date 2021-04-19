@@ -1,11 +1,13 @@
+body{
+    background: url("../images/01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 *{
 	margin:auto;
 	padding:auto;
 }
-
-	body {
-		background-image: url('07.jpg');
-	  }
 
 .top{
 	width:100%;
