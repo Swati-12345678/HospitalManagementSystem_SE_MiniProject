@@ -1,4 +1,4 @@
-<html>
+<!DOCTYPE html>
 <head>
 	<title> Hospital System </title>
 	
@@ -73,22 +73,22 @@
 	
 	<div class="bottom_up">
 		<div>
-				<font size="7px">Make an Appointment</font>
-				
+				<center><font size="7px" >Make an Appointment</font></center>
+				<form method="POST" action="data.php">
 				<table>
 										
 					<tr>
 						<td width="500px"> </td>
-						<td>	<input type="text" placeholder="First Name">
-						<td> 	<input type="text" placeholder="Last Name">
+						<td>	<input type="text" name="firstname" placeholder="First Name">
+						<td> 	<input type="text" name="lastname" placeholder="Last Name">
 					</tr>
 					<tr height="30px">
 						
 					</tr>
 					<tr>
 						<td width="500px"> </td>
-						<td>	<input type="text" placeholder="Email Id">
-						<td> 	<input type="text" placeholder="Mobile No">
+						<td>	<input type="text" name="email" placeholder="Email Id">
+						<td> 	<input type="text" name="mobile" placeholder="Mobile No">
 					</tr>
 					
 					<tr height="30px">
@@ -96,8 +96,8 @@
 					</tr>
 					<tr>
 						<td width="500px"> </td>
-						<td>	<select> <option> -- Sex -- </option> <option> Male </option> <option> Female </option> </select>
-						<td> 	<input type="text" placeholder="appointment date">
+						<td>	<select name="gender"> <option> -- Sex -- </option> <option> Male </option> <option> Female </option> </select>
+						<td> 	<input type="text" name="date" placeholder="appointment date">
 					</tr>
 					
 						<tr height="30px">
@@ -105,7 +105,7 @@
 					</tr>
 					<tr>
 						<td width="500px"> </td>
-						<td colspan="2">	<textarea placeholder="Message"> </textarea>
+						<td colspan="2">	<textarea name="msg" placeholder="Message"> </textarea>
 					</tr>
 					
 						<tr height="30px">
@@ -113,16 +113,15 @@
 					</tr>
 					<tr>
 						<td width="500px"> </td>
-						<td colspan="2">	<button> SUBMIT </button>
+						<td colspan="2">	<input class="button button5" type="submit" id="submit" value="Submit">
 					</tr>
 				</table>
+			</form>
 				
 		</div>
 	</div>
-	
-	
-	
-	
+</body>
+</html>
 	
 	<div class="nav_down">
 		<div>
